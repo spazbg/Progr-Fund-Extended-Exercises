@@ -10,7 +10,7 @@ Numeral Types and Type Conversion
 =================================
 
 
-1. Practice Integer Numbers
+\1. Practice Integer Numbers
 ===========================
 
 Create a new C\# project and create a program that **assigns integer values** to
