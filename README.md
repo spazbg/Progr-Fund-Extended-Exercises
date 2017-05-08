@@ -1,4 +1,5 @@
 [#Programming Fundamentals - Extended - януари 2017#](https://softuni.bg/trainings/1568/programming-fundamentals-exended-january-2017)
+-----------------------
 
 The **“Programming Fundamentals”** course extends the previously gained basic
 coding skills from the \*\*“Programming Basics”\*\*course at the Software
@@ -12,9 +13,9 @@ working with matrices for processing tabular data, working
 with **dictionaries** to map keys to values, using **strings** for text
 processing, and the basics of working with **classes** and **objects**, using
 API classes and defining simple classes.
------------------------
+
+
 **Exercises and labs.**
------------------------
 
 1. Ресурси
 
