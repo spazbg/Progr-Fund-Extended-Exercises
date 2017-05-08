@@ -201,8 +201,8 @@ floating point
 
 You are given **3 integer numbers: a**, **b and c**, which will represent the
 **3 sides of a triangle**. Your task is to check whether the triangle is
-**valid**.  
-  
+**valid**.
+
 If it is, print "**Triangle is valid.**".  
 Otherwise print "**Invalid Triangle.**" and **end the program**.
 
