@@ -35,8 +35,7 @@ Follow the idea in the code below:
 
 ![](media/3bcf2955064963a8d76f83281527e265.png)
 
-2. Practice Floating Point Numbers
-=================================
+## 2. Practice Floating Point Numbers
 
 Create a new C\# project and create a program that **assigns floating point
 values** to **variables**. Be sure that each **value** is stored in the
@@ -47,14 +46,16 @@ to save memory). Finally, you need to **print** all variables to the console.
 
 | **Input**    | **Output**                                                     |
 |--------------|----------------------------------------------------------------|
-| *(no input)* | 3.141592653589793238 1.60217657 7.8184261974584555216535342341 |
+| *(no input)* | 3.141592653589793238 |
+| | 1.60217657 |
+| | 7.8184261974584555216535342341 |
 
 ### Hints
 
 Just like at the previous problem, declare several variables of appropriate
 **floating-point data type**, assign the above listed values and **print** them.
 
-Exchange Variable Values
+## 3. Exchange Variable Values
 ------------------------
 
 Declare two integer variables **a** and **b** and assign them with 5 and 10 and
@@ -65,7 +66,8 @@ variable values before and after the exchange, as shown below:
 
 | **Input** | **Output** |
 |-----------|------------|
-| 5 10      | 10 5       |
+| 5 | 10 |
+| 10 | 5 |
 
 ### Hints
 
@@ -73,7 +75,7 @@ You may use a **temporary variable** to remember the old value of **a**, then
 assign the value of **b** to **a**, then assign the value of the temporary
 variable to **b**.
 
-Float or Integer
+## 4. Float or Integer
 ----------------
 
 Write a program that checks whether a number is a **real number** or an
@@ -90,7 +92,7 @@ number is a **real number**, print **the closest integer** to it.
 
 -   Use the **System.Math** class to round the result.
 
-Distance of The Stars
+## 5. Distance of The Stars
 ---------------------
 
 In physics, there are some well-known relative distances in Space:
@@ -115,13 +117,16 @@ Assume that **1 light year** == **9 450 000 000 000 km**.
 
 | **Input**    | **Output**                              |
 |--------------|-----------------------------------------|
-| *(no input)* | 3.99e+013 2.46e+017 9.45e+017 4.40e+023 |
+| *(no input)* | 3.99e+013
+| | 2.46e+017  |
+| | 9.45e+017 |
+| | 4.40e+023 |
 
 ### Hints
 
 -   Use the **decimal** data type for the calculations
 
-Increment Variable
+## 6. Increment Variable
 ------------------
 
 Write a program to **increment** a **byte** variable (starting at 0) **n times**
@@ -134,14 +139,16 @@ right?
 | **Input** | **Output**             |
 |-----------|------------------------|
 | 50        | 50                     |
-| 1000      | 232 Overflowed 3 times |
-| 256       | 0 Overflowed 1 times   |
+| 1000      | 232 |
+| | Overflowed 3 times |
+| 256       | 0 |
+| | Overflowed 1 times   |
 
 ### Hints
 
 -   If the next number becomes **0**, an overflow is detected.
 
-From Terabytes to Bits
+## 7. From Terabytes to Bits
 ----------------------
 
 Write program to enter a real number of **terabytes** and convert it to
@@ -161,7 +168,7 @@ Write program to enter a real number of **terabytes** and convert it to
 
 -   1TB == (1024 \* 1024 \* 1024 \* 1024 \* 8) bits
 
-Traveling at Light Speed
+## 8. Traveling at Light Speed
 ------------------------
 
 Create a program that finds for how many **weeks**, **days**, **hours**,
@@ -194,7 +201,22 @@ floating point
 
 | **Input** | **Output**                                   |   | **Input** | **Output**                                    |   | **Input**  | **Output**                                 |
 |-----------|----------------------------------------------|---|-----------|-----------------------------------------------|---|------------|--------------------------------------------|
-| 14        | 729 weeks 1 days 4 hours 0 minutes 0 seconds |   | 5         | 260 weeks 3 days 22 hours 0 minutes 0 seconds |   | 0.00000005 | 0 weeks 0 days 0 hours 0 minutes 2 seconds |
+| 14        | 729 weeks |
+| | 1 days |
+| | 4 hours |
+| | 0 minutes |
+| | 0 seconds |  
+| 5         | 260 weeks |
+| | 3 days |
+| | 22 hours |
+| | 0 minutes |
+| | 0 seconds | 
+| 0.00000005 |
+| | 0 weeks |
+| | 0 days |
+| | 0 hours|
+| | 0 minutes |
+| | 2 seconds |
 
 ### Hints
 
@@ -202,7 +224,7 @@ floating point
 
 -   The type **decimal** is big enough for the calculations.
 
-\* Triangle Formations
+## 9. \* Triangle Formations
 ----------------------
 
 You are given **3 integer numbers: a**, **b and c**, which will represent the
@@ -222,9 +244,22 @@ b and c**", and so on.
 
 | **Input** | **Output**                                                          |   | **Input** | **Output**                                                          |
 |-----------|---------------------------------------------------------------------|---|-----------|---------------------------------------------------------------------|
-| 3 4 5     | Triangle is valid. Triangle has a right angle between sides a and b |   | 6 10 8    | Triangle is valid. Triangle has a right angle between sides a and c |
+| 3 |
+|4 |
+|5     | Triangle is valid.|
+| | Triangle has a right angle between sides a and b |   
+| 6 |
+| 10 |
+| 8 | Triangle is valid. |
+| | Triangle has a right angle between sides a and c |
 | **Input** | **Output**                                                          |   | **Input** | **Output**                                                          |
-| 5 5 5     | Triangle is valid. Triangle has no right angles                     |   | 3 1 1     | Invalid Triangle.                                                   |
+| 5 |
+| 5 |
+| 5 |     | Triangle is valid. |
+| | Triangle has no right angles                     |
+| 3 |
+| 1 | 
+| 1 |     | Invalid Triangle.                                                   |
 
 ### Hints
 
@@ -239,7 +274,7 @@ b and c**", and so on.
 
     -   c2 + a2 == b2
 
-\* Data Overflow
+## 10. \* Data Overflow
 ----------------
 
 You will be given two numbers. Your task is to find the lowest one by value,
@@ -252,9 +287,14 @@ integer**).
 
 | **Input** | **Output**                                                              | **Explanation**                                                                                                                                   |           |                   |
 |-----------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|-----------|-------------------|
-| 100000 5  | bigger type: uint smaller type: byte 100000 can overflow byte 392 times | uint.MinValue ≤ 100000 ≤ uint.MaxValue bigger type uint byte.MinValue ≤ 5 ≤ byte.MaxValue smaller type byte 100000 / byte.MaxValue = 392.1568 392 |           |                   |
+| 100000 |
+|5  | bigger type: uint |
+| | smaller type: byte |
+| | 100000 can overflow byte 392 times | uint.MinValue ≤ 100000 ≤ uint.MaxValue bigger type uint byte.MinValue ≤ 5 ≤ byte.MaxValue smaller type byte 100000 / byte.MaxValue = 392.1568 392 |           |                   |
 | **Input** | **Output**                                                              |                                                                                                                                                   | **Input** | **Output**        |
-| 1200 2    | bigger type: ushort smaller type: byte 1200 can overflow byte 5 times   |                                                                                                                                                   | 65535     | bigger type: uint |
+| 1200 | bigger type: ushort |
+| 2 |    smaller type: byte |
+| | can overflow byte 5 times   |                                                                                                                                                   | 65535     | bigger type: uint |
 
 >   131070
 
@@ -270,7 +310,7 @@ integer**).
 Text and Other Types
 ====================
 
-Practice Characters and Strings
+## 11. Practice Characters and Strings
 -------------------------------
 
 Create a new C\# project and create a program that **assigns character** and
@@ -282,14 +322,19 @@ console.
 
 | **Input**    | **Output**                                   |
 |--------------|----------------------------------------------|
-| *(no input)* | Software University B y e I love programming |
+| *(no input)* | Software University |
+| | B |
+| | y |
+| | e |
+| | I | 
+| | love programming |
 
 ### Hints
 
 Like at the previous problem, declare variables of type **char** or **string**,
 assign the above values and **print** them.
 
-Variable in Hexadecimal Format
+## 12. Variable in Hexadecimal Format
 ------------------------------
 
 Write a program that reads a number in **hexadecimal format** (**0x\#\#**)
@@ -308,7 +353,7 @@ convert it to **decimal format** and prints it.
 -   Use [Convert.ToInt32(string,
     16)](https://msdn.microsoft.com/en-us/library/1k20k614(v=vs.110).aspx).
 
-Digits with Words
+## 1. Digits with Words
 -----------------
 
 Create a program that reads a **digit** in the form of a **word** and prints the
@@ -350,7 +395,7 @@ The task is to **concatenate** everything in **string** format.
 -   Then, add every single **char** to a **string** variable and print the
     result.
 
-Calculator
+## 15. Calculator
 ----------
 
 Create a program that reads 3 lines:
@@ -376,7 +421,7 @@ will **always** be **integers**.
 
 -   Use a **switch case** to determine which operator you need to use.
 
-Tricky Strings
+## 16. Tricky Strings
 --------------
 
 You are given a **delimiter**. On the next line, you will receive a number
@@ -401,7 +446,7 @@ strings are **acceptable input**!
 -   In order to print the last string **without a delimiter**, print it outside
     the loop where you’ll print the rest of the strings **with delimiters**.
 
-\*\* Cypher Roulette
+## 17. \*\* Cypher Roulette
 --------------------
 
 You will be given an integer **N**. On the next **N** lines, you will receive
