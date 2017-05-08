@@ -9,8 +9,9 @@ You can check your solutions here: <https://judge.softuni.bg/Contests/392>.
 Numeral Types and Type Conversion
 =================================
 
+
 1. Practice Integer Numbers
-=================================
+===========================
 
 Create a new C\# project and create a program that **assigns integer values** to
 **variables**. Be sure that each **value** is stored in the **correct variable
