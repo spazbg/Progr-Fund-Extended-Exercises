@@ -12,7 +12,7 @@ working with matrices for processing tabular data, working
 with **dictionaries** to map keys to values, using **strings** for text
 processing, and the basics of working with **classes** and **objects**, using
 API classes and defining simple classes.
-
+-----------------------
 **Exercises and labs.**
 -----------------------
 
