@@ -10,7 +10,7 @@ Numeral Types and Type Conversion
 =================================
 
 1. Practice Integer Numbers
-------------------------
+=================================
 
 Create a new C\# project and create a program that **assigns integer values** to
 **variables**. Be sure that each **value** is stored in the **correct variable
@@ -36,7 +36,7 @@ Follow the idea in the code below:
 ![](media/3bcf2955064963a8d76f83281527e265.png)
 
 2. Practice Floating Point Numbers
--------------------------------
+=================================
 
 Create a new C\# project and create a program that **assigns floating point
 values** to **variables**. Be sure that each **value** is stored in the
