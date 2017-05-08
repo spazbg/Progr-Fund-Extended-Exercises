@@ -1,4 +1,4 @@
-#[Programming Fundamentals - Extended - януари 2017](https://softuni.bg/trainings/1568/programming-fundamentals-exended-january-2017)#
+[Programming Fundamentals - Extended - януари 2017](https://softuni.bg/trainings/1568/programming-fundamentals-exended-january-2017)
 -----------------------
 
 The **“Programming Fundamentals”** course extends the previously gained basic
