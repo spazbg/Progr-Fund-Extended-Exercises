@@ -16,7 +16,7 @@ API classes and defining simple classes.
 
 
 **Exercises and labs.**
-
+-----------------------
 1. Ресурси
 
 2. Course Overview
