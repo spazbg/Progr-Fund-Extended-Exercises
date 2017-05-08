@@ -9,7 +9,7 @@ You can check your solutions here: <https://judge.softuni.bg/Contests/392>.
 Numeral Types and Type Conversion
 =================================
 
-Practice Integer Numbers
+1. Practice Integer Numbers
 ------------------------
 
 Create a new C\# project and create a program that **assigns integer values** to
@@ -21,7 +21,13 @@ Finally, you need to **print** all variables to the console.
 
 | **Input**    | **Output**                                                        |
 |--------------|-------------------------------------------------------------------|
-| *(no input)* | \-100 128 -3540 64876 2147483648 -1141583228 -1223372036854775808 |
+| *(no input)* | \-100 
+| | 128 | 
+| | -3540 |
+| | 64876 |
+| | 2147483648  |
+| | -1141583228  |
+| | -1223372036854775808 |
 
 ### Hints
 
@@ -29,7 +35,7 @@ Follow the idea in the code below:
 
 ![](media/3bcf2955064963a8d76f83281527e265.png)
 
-Practice Floating Point Numbers
+2. Practice Floating Point Numbers
 -------------------------------
 
 Create a new C\# project and create a program that **assigns floating point
